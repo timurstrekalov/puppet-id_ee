@@ -6,6 +6,6 @@
 class idcardutility {
   package { 'IdCardUtility':
     source   => 'http://installer.id.ee/media/osx/estonianidcard-3.7.1.1204.dmg',
-    provider => 'appdmg'
+    provider => 'pkgdmg'
   }
 }
